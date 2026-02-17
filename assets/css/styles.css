@@ -690,8 +690,10 @@ img{max-width:100%; display:block}
   letter-spacing:.10em;
   text-transform: uppercase;
   margin-bottom: 14px;
+.heroName{
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  white-space: nowrap;
 }
-.heroName{ font-size: clamp(2.7rem, 6.2vw, 4.8rem); }
 
 .metaLeft, .metaRight{
   font-family: ui-sans-serif, system-ui;
