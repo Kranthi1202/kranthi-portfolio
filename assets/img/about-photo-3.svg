@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<defs>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#2a2a2d"/><stop offset="1" stop-color="#151517"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="1500" fill="url(#g)"/>
+<rect x="70" y="70" width="1060" height="1360" rx="46" fill="rgba(255,255,255,.04)" stroke="rgba(255,255,255,.12)" stroke-width="2"/>
+<text x="120" y="210" font-family="ui-sans-serif, system-ui" font-size="64" fill="rgba(255,255,255,.72)">Photo C</text>
+<text x="120" y="300" font-family="ui-sans-serif, system-ui" font-size="30" fill="rgba(255,255,255,.45)">Replace in /assets/img</text>
+</svg>

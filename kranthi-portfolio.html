@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Kranthi Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <div class="bgGrid" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="index.html">Kranthi Portfolio</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="work.html" data-nav="work">Work</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="actions">
+        <button class="toggle" id="themeToggle" type="button">Lights</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page caseWrap">
+    <section class="caseHero">
+      <div class="wrap caseHeroInner" data-reveal>
+        <div class="caseTitle">
+          <p class="projName">Kranthi Portfolio</p>
+          <h1 class="projBig">A super modular design system<br/>built from grounds up</h1>
+        </div>
+        <div class="caseHeroMedia">
+          <img src="assets/img/portfolio-hero.svg" alt="Sense hero" />
+        </div>
+      </div>
+    </section>
+
+    <section class="caseMain">
+      <div class="proseNarrow">
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">What is Sense Design System?</h2>
+          <div class="caseCols">
+            <p class="caseP">Sense is a modular design system built to power a suite of products with speed, consistency, and accessibility. The goal was to create a foundation teams could adopt easily—without sacrificing craft.</p>
+            <p class="caseP">This page is structured as a visual walkthrough: typography, tokens, components, documentation, accessibility, governance, and outcomes. Replace all text and images with your real content.</p>
+          </div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">A brief history</h2>
+          <p class="caseP">The system began as a small set of reusable primitives and grew into a full library of components, patterns, and guidelines. Adoption happened by making the “right way” the easiest way.</p>
+          <ul class="caseList">
+            <li>Primitives → tokens → components → patterns</li>
+            <li>Documentation next to source-of-truth</li>
+            <li>Clear ownership + contribution process</li>
+          </ul>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Guiding Principles</h2>
+          <p class="caseP">A few simple principles kept decisions consistent and prevented “design system drift”.</p>
+          <ul class="caseList">
+            <li>Clarity over cleverness</li>
+            <li>Consistency with character</li>
+            <li>Accessible by default</li>
+            <li>Composable building blocks</li>
+          </ul>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Tokens</h2>
+          <p class="caseP">Tokens are the system’s “source code” for spacing, type, color, elevation, and motion. They make themes scalable and keep UI consistent across surfaces.</p>
+          <div class="caseTwoUp">
+            <div class="caseImg"><img src="assets/img/design-tokens-1.svg" alt="Token example 1" /></div>
+            <div class="caseImg"><img src="assets/img/design-tokens-2.svg" alt="Token example 2" /></div>
+          </div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Screens</h2>
+          <p class="caseP">A few example screens that show the system applied across key product flows.</p>
+          <div class="casePhones">
+            <div class="caseImg"><img src="assets/img/portfolio-screens.svg" alt="Screens montage" /></div>
+          </div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Components, patterns and more</h2>
+          <p class="caseP">Components were built from primitives and documented with usage guidelines, states, and accessibility notes.</p>
+          <div class="caseTwoUp">
+            <div class="caseImg"><img src="assets/img/components-1.svg" alt="Components 1" /></div>
+            <div class="caseImg"><img src="assets/img/components-2.svg" alt="Components 2" /></div>
+          </div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Documentation</h2>
+          <p class="caseP">Documentation is what makes the system usable. It includes examples, do/don’t guidance, migration notes, and contribution guidelines.</p>
+          <div class="caseImg"><img src="assets/img/documentation.svg" alt="Documentation" /></div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Accessibility</h2>
+          <p class="caseP">Accessibility checks were built into component templates and review. Contrast, focus states, keyboard navigation, and screen reader labels were part of the baseline.</p>
+          <div class="caseImg"><img src="assets/img/accessibility.svg" alt="Accessibility" /></div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Information architecture</h2>
+          <p class="caseP">A simple system map helped keep ownership clear: tokens → components → patterns → templates → product screens.</p>
+          <div class="caseImg"><img src="assets/img/information-architecture.svg" alt="Information architecture" /></div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Governance</h2>
+          <p class="caseP">Governance defines who maintains what, how changes are proposed, and how releases are communicated to teams.</p>
+          <div class="caseImg"><img src="assets/img/governance.svg" alt="Governance" /></div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Impact</h2>
+          <p class="caseP">Use this section for metrics and outcomes (reduced regressions, faster dev cycles, improved adoption, etc.).</p>
+          <div class="caseImg"><img src="assets/img/impact.svg" alt="Impact" /></div>
+          <div class="caseMetaRow">
+            <span>Impact</span><span>Confidence</span><span>Consistency</span>
+          </div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Credits</h2>
+          <div class="creditsGrid">
+            <div><div class="k">Role</div><div class="v">Design systems, UI design</div></div>
+            <div><div class="k">Team</div><div class="v">Design + Engineering</div></div>
+            <div><div class="k">Timeline</div><div class="v">Replace with duration</div></div>
+          </div>
+        </section>
+
+        <section class="caseSection" data-reveal>
+          <h2 class="caseH">Experimentation</h2>
+          <p class="caseP">A place for explorations: prototypes, motion studies, or concept work that informed the system.</p>
+          <div class="caseTwoUp">
+            <div class="caseImg"><img src="assets/img/experimentation-1.svg" alt="Experiment 1" /></div>
+            <div class="caseImg"><img src="assets/img/experimentation-2.svg" alt="Experiment 2" /></div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <div class="wrap footer" id="contact">
+      <div>
+        <div class="kicker">Get in touch</div>
+        <div class="muted">Send an email at <a href="mailto:you@example.com">you@example.com</a> or DM on WhatsApp.</div>
+      </div>
+      <div class="muted">LinkedIn • Medium • GitHub</div>
+    </div>
+  </main>
+
+  <script>
+    document.querySelector('[data-nav="work"]')?.setAttribute("aria-current","page");
+  </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Kranthi Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <div class="bgGrid" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="index.html">Kranthi Portfolio</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="work.html" data-nav="work">Work</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="actions">
+        <button class="toggle" id="themeToggle" type="button">Lights</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="workHero">
+      <div class="wrap" data-reveal>
+        <div class="centerNotice">A selection of recent projects</div>
+      </div>
+
+      <div class="wrap workLayout" style="margin-top:22px;">
+        <div class="workTitle" data-reveal>
+          <div class="kicker"> </div>
+          <h1 class="workBig">Featured work</h1>
+          <p class="workSub">All projects</p>
+        </div>
+
+        <div class="workRows" aria-label="Projects">
+          <article class="workRow" data-reveal>
+            <div class="workInfo">
+              <h2 class="name">Kranthi Portfolio</h2>
+              <p class="desc">A super, modular design system built from grounds up.</p>
+              <div class="pills">
+                <span>DESIGN SYSTEM</span><span>UI DESIGN</span><span>STRATEGY</span>
+              </div>
+            </div>
+            <div class="workThumb">
+              <div class="thumbFrame">
+                <img src="assets/img/work-1.svg" alt="Jupiter Sense preview" />
+              </div>
+            </div>
+          </article>
+
+          <article class="workRow" data-reveal>
+            <div class="workInfo">
+              <h2 class="name">Rupeek — Card</h2>
+              <p class="desc">Bringing a secured credit card product to India's underserved market with focus on delight.</p>
+              <div class="pills">
+                <span>PRODUCT DESIGN</span><span>DESIGN SYSTEM</span><span>MOTION DESIGN</span>
+              </div>
+            </div>
+            <div class="workThumb">
+              <div class="thumbFrame">
+                <img src="assets/img/work-2.svg" alt="Rupeek Card preview" />
+              </div>
+            </div>
+          </article>
+
+          <article class="workRow" data-reveal>
+            <div class="workInfo">
+              <h2 class="name">Typeset</h2>
+              <p class="desc">Building a simple wizard which migrated 100,000+ research articles in 6 months from MS Word to Typeset.</p>
+              <div class="pills">
+                <span>PRODUCT DESIGN</span>
+              </div>
+            </div>
+            <div class="workThumb">
+              <div class="thumbFrame">
+                <img src="assets/img/work-3.svg" alt="Typeset preview" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap footer" id="contact">
+      <div>
+        <div class="kicker">Get in touch</div>
+        <div class="muted">Send an email at <a href="mailto:you@example.com">you@example.com</a> or DM on WhatsApp.</div>
+      </div>
+      <div class="muted">LinkedIn • Medium • GitHub</div>
+    </div>
+  </main>
+
+  <script>
+    document.querySelector('[data-nav="work"]')?.setAttribute("aria-current","page");
+  </script>
+</body>
+</html>
