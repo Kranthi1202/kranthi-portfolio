@@ -112,3 +112,13 @@
     });
   });
 })();
+// existing JS code above...
+
+const toggle = document.getElementById("themeToggle");
+const label = document.getElementById("themeLabel");
+
+toggle?.addEventListener("click", () => {
+  const isLight = document.documentElement.dataset.theme === "light";
+  document.documentElement.dataset.theme = isLight ? "dark" : "light";
+  label.textContent = isLight ? "Lights Off" : "Lights On";
+});
